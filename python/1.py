@@ -232,15 +232,15 @@
 
 # input function
 
-# a=int(input("enter the first number\n"))
-# b=int(input("enter the second number\n"))
-# # c=a*b
-# print(a*b)
-# a=int(input("ple. press 1 to see your suprise\n"))
-# if(a==1):
-#     print("\nshivani tu pagal hai re\n        hahahah\n\n         accha sun\n\ntu sach main pagal hai re\n        hahahah")
-# else:
-#     print("ple. press right key")
+a=int(input("enter the first number\n"))
+b=int(input("enter the second number\n"))
+# c=a*b
+print(a*b)
+a=int(input("ple. press 1 to see your suprise\n"))
+if(a==1):
+    print("\nshivani tu pagal hai re\n        hahahah\n\n         accha sun\n\ntu sach main pagal hai re\n        hahahah")
+else:
+    print("ple. press right key")
 
 # functions
 
