@@ -309,15 +309,237 @@
     #     print (i**2)
 
 
-def is_leap(year):
-    leap = False
-    if year%4==0 and (year%100==0) and year%400==0:
-        leap=True
-    elif not(year%4==0) and not(year%100==0) and not(year%400==0):
-        leap=False
-    else:
-        leap=False
+# def is_leap(year):
+#     leap = False
+#     if year%4==0 and (year%100==0) and year%400==0:
+#         leap=True
+#     elif not(year%4==0) and not(year%100==0) and not(year%400==0):
+#         leap=False
+#     else:
+#         leap=False
         
-    return leap
+#     return leap
 
-year = int (int(1990))
+# year = int (int(1990))
+
+
+# def task():
+#     print(a+b) 
+
+# a=int(input())
+# b=int(input())
+# task()
+
+# from module import mod1
+
+# res=mod1.sum(2,2)
+# print(res)
+
+# import math as mt
+# print(mt.sqrt(4))
+# print(mt.factorial(4))
+
+# L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# middle_list = L[2:9]
+# print(middle_list)
+
+
+# import numpy as np
+
+# # linspace: 5 evenly spaced numbers between 0 and 1
+# x = np.linspace(0, 1, 5)
+# print(x)
+
+# # arange: numbers from 0 to 9 with a step of 2
+# y = np.arange(0, 10, 2)
+# print(y)
+
+
+# def reverse_characters(text):
+#   """Reverses each character in a comma-separated string."""
+
+#   words = text.split(',')
+#   reversed_words = [word[::-1] for word in words]
+#   reversed_text = ','.join(reversed_words)
+#   return reversed_text
+
+# Example usage:
+# text = "Hello!!"
+# words = text.split(',')
+# reversed_words = [i[::-1] for i in words]
+# reversed_text = (','.join(reversed_words))
+# print(reversed_text)
+
+# result = reverse_characters(text)
+# print(result)  # Output: H,e,l,l,o,!,!
+
+# text = 'Hello!!'
+# result = text.split(',')
+
+# result = ",".join(text)
+# print(result)
+
+# def reverse_characters(text):
+#   """Reverses each character in a comma-separated string."""
+
+#   words = text.split(',')
+#   reversed_words = [word[::-1] for word in words]
+#   reversed_text = ','.join(reversed_words)
+#   return reversed_text
+
+# # Example usage:
+# text = "Hello!!"
+# result = reverse_characters(text)
+# print(result)  # Output: H,e,l,l,o,!,!
+# predefined_text = list("Hello!!")
+
+# def reverse_characters(text=predefined_text):
+#   """Reverses each character in a list."""
+#   return ','.join(text)
+
+# result = reverse_characters()
+# print(result)  # Output: H,e,l,l,o,!,!
+
+
+# def print_alpha_num(abc_list, num_list):
+#   for char in abc_list:
+#     for num in num_list:
+#       print(char, num)
+
+# print_alpha_num(['a', 'b', 'c'], [1, 2, 3])
+
+
+# i = 0
+# while i< 3:
+#   print(i)
+#   i += 1
+# else:
+#   print (0)
+
+# def cube(x):
+#   return x * x * x
+# x = cube(3)
+# print(x) 
+
+
+# # write a python program to add an item in tuple.
+# tu= (1,2,3)
+# new= 5
+# print(tu,type(tu))
+
+# list=list(tu)
+# print(list,type(list))
+# list.append(new)
+# print(list,type(list))
+# newtu=tuple(list)
+# print(newtu,type(newtu))
+
+# def Add_new_tuple(tuple,item):
+  # return tuple + (item,)
+
+# my_tuple=(1,2,3)
+# my_item=4
+# new_tuple=Add_new_tuple(my_tuple,my_item)
+# print(new_tuple,type(new_tuple))
+
+# def num(a,b):
+#     for i in a:
+#         print(i)
+#         i++
+#         if i<=57
+#         print(stop)
+
+# for number in range(58):
+#     print(number)
+
+
+# x='world'
+# print(type(x))
+# x.append("a")
+# print (x)
+
+# dic = {'a': 1, 'b': 2}
+# print(dic)
+# dic['c']=3
+# print(dic)
+# dic['a']=20
+
+
+# def add_item_to_tuple(original_tuple, item):
+#     # Create a new tuple with the added item
+#     new_tuple = original_tuple + (item,)
+#     return new_tuple
+
+# # Example usage
+# original_tuple = (1, 2, 3)
+# item_to_add = 4
+
+# new_tuple = add_item_to_tuple(original_tuple, item_to_add)
+
+# print("Original tuple:", original_tuple)
+# print("New tuple:", new_tuple)
+
+# def future_function():
+#     pass  # Placeholder for future implementation
+
+# class FutureClass:
+#     pass  # Placeholder for future implementation
+
+# # if condition:
+#     pass  # Placeholder in an if statement for future code
+
+# for i in range(10):
+#     pass # Placeholder in a loop for future code
+
+
+# def ComputeAverage(numbers):
+#     if not numbers:
+#         return 0
+#     else:
+#       a = sum(numbers)
+#       average = a / len(numbers)
+#       return average
+
+# mylist=[1,2,3,4,5,6]
+# result=ComputeAverage(mylist)
+# print(result)
+
+# list=[]
+# result=ComputeAverage(list)
+# print(result)
+
+
+
+# def ComputeAverage(numbers):
+#     try:
+#         if not numbers:
+#             raise ValueError("The list is empty")
+#         return sum(numbers) / len(numbers)
+#     except ValueError as ve:
+#         print(ve)
+#         return 0
+
+# # Example usage:
+# numbers = [1, 2, 3, 4, 5]
+# print(ComputeAverage(numbers))  # Output: 3.0
+
+# empty_numbers = []
+# print(ComputeAverage(empty_numbers))  # Output: 0
+
+
+def compute_average(numbers):
+  if not numbers:
+    return 0
+  else:
+    total = sum(numbers)
+    average = total / len(numbers)
+    return average
+my_list = [1, 2, 3, 4, 5]
+result = compute_average(my_list)
+print(result)  # Output: 3.0
+
+empty_list = []
+result = compute_average(empty_list)
+print(result)  # Output: 0
+
+
